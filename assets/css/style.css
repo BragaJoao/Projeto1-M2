@@ -1,5 +1,7 @@
 body {
     margin: 0rem 0rem;
+    height: 100vh;
+    width: 100%;
     background-color: #303030;
     display: flex;
     flex-direction: column;
@@ -29,8 +31,8 @@ body {
     background-color: #191919;
     box-shadow: .15rem .15rem .15rem black;
     flex-direction: column;
-    width: 25rem;
-    height: 30rem;
+    width: 20rem;
+    height: 25rem;
     border-radius: 1rem;
     align-items: center;
     gap: 1.2rem;
@@ -59,7 +61,7 @@ body {
   }
   
   button {
-    width: 25%;
+    width: 30%;
     margin: auto;
     align-items: flex-end;
     border-radius: 1rem;
