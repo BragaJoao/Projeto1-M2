@@ -1,0 +1,83 @@
+body {
+    margin: 0rem 0rem;
+    background-color: #303030;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    font-family: "poppins";
+    font-weight: 300;
+    color: #fff;
+  }
+  
+  header {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    display: inline-block;
+  }
+  header h1 {
+    font-family: "Rubik Glitch";
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 10;
+    text-align: center;
+  }
+  
+  main {
+    display: flex;
+    background-color: #191919;
+    box-shadow: .15rem .15rem .15rem black;
+    flex-direction: column;
+    width: 25rem;
+    height: 30rem;
+    border-radius: 1rem;
+    align-items: center;
+    gap: 1.2rem;
+  }
+  
+  main h2 {
+    margin: auto;
+    text-align: center;
+  }
+  
+  footer {
+    color: #fff;
+    font-weight: 300;
+  }
+  
+  figure {
+    max-width: 40%;
+    max-height: 40%;
+    width: 70%;
+  }
+  
+  img {
+    width: 100%;
+    border-radius: 1rem;
+    object-fit: contain;
+  }
+  
+  button {
+    width: 25%;
+    margin: auto;
+    align-items: flex-end;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    font-weight: 800;
+  }
+  
+  .hover {
+    --h: 1.2em;
+  
+    line-height: var(--h);
+    color: #0000;
+    text-shadow: 0 calc(-1 * var(--_t, 0em)) #000,
+      0 calc(var(--h) - var(--_t, 0em)) #1095c1;
+    overflow: hidden;
+    transition: 0.3s;
+  }
+  .hover:hover {
+    --_t: var(--h);
+  }
+  
